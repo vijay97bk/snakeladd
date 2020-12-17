@@ -1,4 +1,6 @@
 #!/bin/bash/ -x
-#set pos 0
-randomvar=$((RANDOM%6+1))
-pos=0
+#set all pos
+player1=0
+startpos=0
+
+
