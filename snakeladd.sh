@@ -22,16 +22,15 @@ echo no play
 echo your position is $PlayerPos
 elif [ $Opt -eq 1 ]
 then
-(($PlayerPos-$Dice ))
+PlayerPos=($PlayerPos - $Dice)
 echo snake
 echo your position is $PlayerPos
 elif [ $Opt -eq 2 ]
 then
-(($PlayerPos+$Dice))
+PlayerPos=($PlayerPos + $Dice)
 echo Ladder
 echo your position is $PlayerPos
 fi
-return $PlayerPos
 }
 rolldice
 start
